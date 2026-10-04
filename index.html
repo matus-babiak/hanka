@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hanka — HV</title>
+  <meta name="description" content="Hanka — jemná elegancia, vintage inšpirácia a starostlivo tvorený svet pre tých, čo milujú krásu v detailoch." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="assets/logo-hv.svg" type="image/svg+xml" />
+</head>
+<body>
+  <a class="skip-link" href="#obsah">Preskočiť na obsah</a>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Hlavná navigácia">
+      <a class="nav__brand" href="#uvod" aria-label="Hanka — úvod">
+        <span class="nav__mark" aria-hidden="true">HV</span>
+        <span class="nav__name">Hanka</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#pribeh">Príbeh</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="obsah">
+    <section class="hero" id="uvod" aria-labelledby="hero-heading">
+      <div class="hero__backdrop" aria-hidden="true">
+        <img
+          class="hero__flowers"
+          src="assets/hero-flowers.jpg"
+          alt=""
+          width="1920"
+          height="1080"
+          fetchpriority="high"
+        />
+        <div class="hero__veil"></div>
+      </div>
+
+      <div class="hero__content">
+        <img
+          class="hero__logo"
+          src="assets/logo-hv-monogram.jpg"
+          width="280"
+          height="280"
+          alt="Monogram HV — prepletené iniciály"
+        />
+        <p class="hero__brand">Hanka</p>
+        <h1 id="hero-heading" class="hero__title">Kde jemnosť stretáva odvahu byť krásna</h1>
+        <p class="hero__lead">
+          Svet staroružovej elegancie, vintage kvetov a detailov, ktoré hovoria potichu — a zostávajú.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#pribeh">Objaviť príbeh</a>
+          <a class="btn btn--ghost" href="#kontakt">Napísať</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="story" id="pribeh" aria-labelledby="story-heading">
+      <div class="story__inner">
+        <img
+          class="story__bloom"
+          src="assets/floral-corner.jpg"
+          width="420"
+          height="420"
+          alt="Jemne kreslené pivonky a anglické ruže"
+        />
+        <div class="story__copy">
+          <p class="eyebrow">Príbeh značky</p>
+          <h2 id="story-heading">Inšpirované dvorom, stvorené pre dnes</h2>
+          <p>
+            Monogram HV nesie ducha kráľovských iniciál — dve písmená, jedno gesto.
+            Okolo neho rastú pivonky a anglické ruže: jemná kresba, staroružový tón, pocit, že čas sa na chvíľu zastavil.
+          </p>
+          <p>
+            Hanka je miesto, kde sa elegancia nepredvádza. Je cítiť. V farbe. V tichu. V tom, čo si zapamätáte.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="kontakt" aria-labelledby="contact-heading">
+      <div class="contact__inner">
+        <p class="eyebrow">Kontakt</p>
+        <h2 id="contact-heading">Poďme tvoriť spolu</h2>
+        <p class="contact__lead">
+          Máte nápad, spoluprácu alebo otázku? Napíšte — odpoviem osobne a bez zbytočných fráz.
+        </p>
+        <a class="btn btn--primary" href="mailto:ahoj@hanka.sk">ahoj@hanka.sk</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p><span aria-hidden="true">HV</span> · Hanka</p>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

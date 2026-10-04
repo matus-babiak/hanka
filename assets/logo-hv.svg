@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Monogram HV</title>
+  <desc id="logoDesc">Prepletené iniciály H a V v atýle krá>ovského monogramu</desc>
+  <defs>
+    <linearGradient id="ink" x1="40" y1="20" x2="200" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B4A52"/>
+      <stop offset="55%" stop-color="#A65D66"/>
+      <stop offset="100%" stop-color="#6E343C"/>
+    </linearGradient>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#8B4A52" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- Outer oval frame -->
+  <ellipse cx="120" cy="120" rx="108" ry="112" fill="none" stroke="#C08081" stroke-width="1.25" opacity="0.85"/>
+  <ellipse cx="120" cy="120" rx="100" ry="104" fill="none" stroke="#B76E79" stroke-width="0.75" opacity="0.55"/>
+
+  <!-- Tiny floral accents on frame -->
+  <g fill="#C08081" opacity="0.9">
+    <path d="M120 8c2.2 6.5 2.2 11.5 0 18-2.2-6.5-2.2-11.5 0-18z"/>
+    <path d="M120 214c2.2 6.5 2.2 11.5 0 18-2.2-6.5-2.2-11.5 0-18z"/>
+    <path d="M12 120c6.5 2.2 11.5 2.2 18 0-6.5-2.2-11.5-2.2-18 0z"/>
+    <path d="M210 120c6.5 2.2 11.5 2.2 18 0-6.5-2.2-11.5-2.2-18 0z"/>
+  </g>
+
+  <!-- Intertwined H and V -->
+  <g filter="url(#soft)" fill="none" stroke="url(#ink)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- H left stem -->
+    <path d="M62 58c4 18 5 42 5 62s-1 44-5 62" stroke-width="7.5"/>
+    <!-- H right stem, weaving through V -->
+    <path d="M118 58c4 14 5 30 5 46" stroke-width="7.5"/>
+    <path d="M123 128c0 18-1 36-5 54" stroke-width="7.5"/>
+    <!-- H crossbar, passing behind/through V left arm -->
+    <path d="M67 118h28" stroke-width="6.5"/>
+    <path d="M108 118h15" stroke-width="6.5"/>
+
+    <!-- V left arm crossing over H crossbar region -->
+    <path d="M98 56c8 28 16 56 22 84" stroke-width="7.8"/>
+    <!-- V right arm -->
+    <path d="M178 56c-10 30-20 60-28 84" stroke-width="7.8"/>
+    <!-- V base point flourish -->
+    <path d="M120 140c-2 10-4 20-6 30" stroke-width="7.2"/>
+    <path d="M150 140c2 10 4 20 6 30" stroke-width="7.2"/>
+    <path d="M114 170c5 8 11 12 16 12s11-4 16-12" stroke-width="6.5"/>
+  </g>
+
+  <!-- Decorative flourish under letters -->
+  <path d="M72 196c18-10 36-14 48-14s30 4 48 14" fill="none" stroke="#C08081" stroke-width="1.1" opacity="0.75"/>
+  <path d="M88 202c14-6 26-8 32-8s18 2 32 8" fill="none" stroke="#B76E79" stroke-width="0.8" opacity="0.55"/>
+  <circle cx="120" cy="190" r="2.2" fill="#C08081"/>
+</svg>
